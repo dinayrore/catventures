@@ -1,10 +1,10 @@
 # Site
 title:              Catventures
-bio:                'Experience life through the cats meow'
-description:        ''
+bio:                'Experience life as a Cat!'
+description:        'Your adventure adapts to the choices you make. Your story is tailored by how you play.'
 reading_time:       true
 words_per_minute:   200
-logo:               ''
+logo:               'assets/img/favicons/neko-atsume-cat-butt-icon.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
