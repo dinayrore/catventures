@@ -5,6 +5,7 @@ This site is still under development, however upon its completion, this site can
 ## Built With
 
 * Atom
+* Jekyll Themes
 
 ## Authors
 
