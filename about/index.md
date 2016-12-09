@@ -1,13 +1,12 @@
 ---
 layout: page
 title: About Catventures
-tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
 
 <center><a href="https://kteich88.github.io/catventures/"><b>Catventures</b></a> is a choose your own adventure game from the viewpoint of a cat!</center>
-<!-- 
+<!--
 ## Features
 * Minimal, you can focus on your content
 * Responsive
