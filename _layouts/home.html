@@ -14,35 +14,26 @@ layout: compress
     <!-- Header -->
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
-            <div class="row">
-                    <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
-                    </a>
-                    <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
-			            </a>
-                    </h3>
-                    <hr class="hr-line">
-                    <h3 class="title">
-                        <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-			            </a>
-                    </h3>
-                    {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
-                         About
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/posts">
-                         Posts
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
-                         Projects
-                         </a>
-                 </h3>
-            </div>
+          <div class="row">
+            <h3 class="title">
+            	<p style="font-weight:300">If I fits, I sits...</p>
+              <p style="font-weight:300">What's yours is mine, and what's mine is also mine...</p>
+              <p style="font-weight:300">No bills to pay, sleep all day!</p>
+            </h3>
+            <hr class="hr-line">
+            <h3 class="title">
+              <a class="zoombtn" href="{{ site.url }}">
+              	<p style="font-weight:300;">{{ site.title }}</p>
+              </a>
+            </h3>
+            <hr class="hr-line">
+            <h3 class="title">
+              <a class="btn zoombtn" href="{{ site.url }}/about">About</a>
+              <!-- Last two buttons can be login/register and cats? -->
+              <!-- <a class="btn zoombtn" href="{{ site.url }}/posts">Posts</a>
+              <a class="btn zoombtn" href="{{ site.url }}/projects">Projects</a> -->
+           </h3>
+          </div>
         </div>
     </header>
     {% include scripts.html %}
